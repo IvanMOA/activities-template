@@ -1,0 +1,21 @@
+{
+  "name": "tasks-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --enable-source-maps bin/test.ts"
+  },
+  "devDependencies": {
+    "@japa/assert": "^3.0.0",
+    "@japa/expect-type": "^2.0.2",
+    "@japa/file-system": "^2.3.0",
+    "@japa/runner": "^3.1.4",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "type": "module"
+}
